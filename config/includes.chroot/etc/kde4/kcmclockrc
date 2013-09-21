@@ -1,0 +1,3 @@
+[NTP]
+enabled=true
+servers=europe.pool.ntp.org,Public Time Server (pool.ntp.org),asia.pool.ntp.org,north-america.pool.ntp.org,oceania.pool.ntp.org
