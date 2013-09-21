@@ -6,4 +6,5 @@ lb config noauto \
 	--architectures i386 \
 	--linux-flavours 686-pae \
 	--archive-areas "main contrib non-free" \
+	--apt-source-archives false \
 	"${@}"
