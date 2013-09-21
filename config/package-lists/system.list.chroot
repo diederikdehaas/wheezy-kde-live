@@ -1,2 +1,2 @@
 virtualbox-guest-dkms virtualbox-guest-x11 virtualbox-guest-utils
-git vim openssh-server htop iftop
+git vim openssh-server htop iftop cpufrequtils
