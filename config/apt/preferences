@@ -1,3 +1,7 @@
 Package: vlc
 Pin: version *
 Pin-Priority: -1
+
+Package: libreoffice* uno-libs3 ure python-uno
+Pin: release a=wheezy-backports
+Pin-Priority: 1000
