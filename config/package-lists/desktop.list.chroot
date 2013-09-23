@@ -4,3 +4,5 @@ desktop-base iceweasel xul-ext-adblock-plus
 flashplugin-nonfree
 #endif
 
+# Office
+openjdk-7-jre libreoffice libreoffice-kde myspell-nl aspell-nl
