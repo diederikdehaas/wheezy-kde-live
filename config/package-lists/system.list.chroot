@@ -1,6 +1,8 @@
-virtualbox-guest-dkms virtualbox-guest-x11 virtualbox-guest-utils
 # System
-cpufrequtils bash-completion 
+cpufrequtils bash-completion lvm2 mdadm usbutils pciutils hwinfo lshw
+
+# Filesystems
+dosfsutils ntfs-3g fuse exfat-fuse exfat-utils e2fsprogs sshfs
 
 # Monitoring
 htop iftop
@@ -9,13 +11,18 @@ htop iftop
 openssh-server ntp
 
 # Networking
-dnsutils
+netbase net-tools wireless-tools dnsutils traceroute tshark nmap dnstracer smbclient wpasupplicant
 
+# Anti-virus/malware/etc
+clamav clamav-freshclam chkrootkit rkhunter
 # Archive utilities
 bzip2 p7zip-full zip unzip 
 #if ARCHIVE_AREAS non-free
 rar unrar
 #endif
 
+# Virtualization
+virtualbox-guest-dkms virtualbox-guest-x11 virtualbox-guest-utils
+
 # Other
-git vim 
+git vim tmux
