@@ -1,1 +1,5 @@
-desktop-base iceweasel
+desktop-base iceweasel xul-ext-adblock-plus xul-ext-livehttpheaders xul-ext-webdeveloper
+#if ARCHIVE_AREAS contrib non-free
+flashplugin-nonfree
+#endif
+
