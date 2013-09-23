@@ -2,7 +2,7 @@
 cpufrequtils bash-completion lvm2 mdadm usbutils pciutils hwinfo lshw
 
 # Filesystems
-dosfsutils ntfs-3g fuse exfat-fuse exfat-utils e2fsprogs sshfs
+dosfstools ntfs-3g fuse exfat-fuse exfat-utils e2fsprogs sshfs
 
 # Monitoring
 htop iftop
