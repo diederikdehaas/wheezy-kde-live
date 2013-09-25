@@ -5,3 +5,12 @@ Pin-Priority: -1
 Package: libreoffice* uno-libs3 ure python-uno
 Pin: release a=wheezy-backports
 Pin-Priority: 1000
+
+Package: glx-diversions glx-alternative-mesa glx-alternative-nvidia glx-alternative-fglrx
+Pin: release a=wheezy-backports
+Pin-Priority: 1000
+
+# Don't enable bumblebee until version 3.2.1-4 hits backports
+#Package: bumblebee bumblebee-nvidia primus
+#Pin: release a=wheezy-backports
+#Pin-Priority: 1000
