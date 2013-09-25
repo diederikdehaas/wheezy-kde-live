@@ -1,5 +1,8 @@
+# Base desktop files
+desktop-base 
+
 # Web browser
-desktop-base iceweasel xul-ext-adblock-plus
+iceweasel xul-ext-adblock-plus
 #if ARCHIVE_AREAS contrib non-free
 flashplugin-nonfree
 #endif
