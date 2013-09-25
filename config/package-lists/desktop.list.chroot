@@ -2,7 +2,7 @@
 desktop-base 
 
 # Web browser
-pkg-mozilla-archive-keyring iceweasel xul-ext-adblock-plus
+iceweasel xul-ext-adblock-plus
 #if ARCHIVE_AREAS contrib non-free
 flashplugin-nonfree
 #endif
