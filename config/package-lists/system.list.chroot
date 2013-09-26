@@ -1,5 +1,5 @@
 # System
-cpufrequtils bash-completion lvm2 mdadm usbutils pciutils hwinfo lshw
+cpufrequtils bash-completion lvm2 mdadm usbutils pciutils hwinfo lshw mlocate
 
 # Filesystems
 dosfstools ntfs-3g fuse exfat-fuse exfat-utils e2fsprogs sshfs
