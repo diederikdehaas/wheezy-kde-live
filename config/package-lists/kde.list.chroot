@@ -1,3 +1,17 @@
-kde-plasma-desktop kdeplasma-addons
+# Core kde packages
+kde-plasma-desktop kdeplasma-addons polkit-kde-1 khelpcenter4 
+
+# Office apps and document viewers
+kontact okular gwenview ksnapshot
+
+# Make sure gtk apps look the same as qt apps
 gtk2-engines-oxygen gtk3-engines-oxygen kde-config-gtk-style
-polkit-kde-1 ark gwenview kate kcalc kwalletmanager kmix ksnapshot okular khelpcenter4 plasma-widget-networkmanagement kontact smplayer 
+
+# Multimedia
+smplayer kmix 
+
+# Security
+kwalletmanager 
+
+# Other
+ark kate kcalc plasma-widget-networkmanagement 
