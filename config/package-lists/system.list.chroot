@@ -13,6 +13,9 @@ openssh-server ntp
 # Networking
 netbase net-tools wireless-tools dnsutils traceroute tshark nmap dnstracer smbclient wpasupplicant
 
+# Security
+gnupg2
+
 # Anti-virus/malware/etc
 clamav clamav-freshclam chkrootkit rkhunter
 # Archive utilities
