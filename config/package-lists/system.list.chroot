@@ -1,5 +1,6 @@
 # System
-cpufrequtils bash-completion lvm2 mdadm usbutils pciutils hwinfo lshw mlocate
+cpufrequtils bash-completion lvm2 mdadm usbutils pciutils hwinfo lshw mlocate eject
+alsa-base alsa-utils
 
 # Filesystems
 dosfstools ntfs-3g fuse exfat-fuse exfat-utils e2fsprogs sshfs
@@ -11,7 +12,7 @@ htop iftop
 openssh-server ntp
 
 # Networking
-netbase net-tools wireless-tools dnsutils traceroute tshark nmap dnstracer smbclient wpasupplicant
+netbase net-tools wireless-tools iw dnsutils traceroute tshark nmap dnstracer smbclient wpasupplicant
 
 # Security
 gnupg2
