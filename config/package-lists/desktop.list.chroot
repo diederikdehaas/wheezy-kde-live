@@ -1,5 +1,6 @@
 # Base desktop files
-desktop-base 
+desktop-base menu xdg-utils
+xserver-xorg-video-all xserver-xorg-input-all
 
 # Web browser
 iceweasel xul-ext-adblock-plus
