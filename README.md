@@ -1,4 +1,4 @@
-# wheezy-kde-live
+<h1>wheezy-kde-live</h1>
 
 Repository containing the configuration of my <a href="http://live.debian.net/">debian-live</a> 'cd' with KDE from Debian Wheezy.
 My configuration differs from the standard in a number of ways:
@@ -6,7 +6,7 @@ My configuration differs from the standard in a number of ways:
 * It has my preferred package selection.
 * It has the persistence kernel parameter enabled by default (more on that later).
 
-## How to use it?
+<h2>How to use it?</h2>
 The best source is the excellent documentation of Debian Live itself at http://live.debian.net/manual/stable/ .
 
 For the impatient on a Debian system you need the "live-build" package installed and superuser access.<br>
@@ -14,10 +14,10 @@ Once you have that, clone my repository and cd into that. Then do:
 <pre># lb build</pre> and wait for it to finish, which can take a while depending on the speed of your system and your internet connection. When it has finished, you'll have a file named "binary.hybrid.iso" which you can burn onto a cd/dvd or put it on an usb stick with the following command:
 <pre>dd if=binary.hybrid.iso of={USBSTICK} bs=1M</pre>
 Where {USBSTICK} is the identifyer of your stick, like /dev/sdb. When you plug in your usb stick and do "dmesg | tail", you should see which identifyer is assigned to your stick.
-<p><b>WARNING</b> The above command overrides all the data that was previous present on that disk, so backup those up before you issue that command.</p>
+<p><b>WARNING</b> The above command overrides all the data that was previously present on that disk, so backup those up before you issue that command.</p>
 If you've build your image and want to change the configuration, for example add your own preferred packages, do an <pre># lb clean</pre> first, change your configuration and then do a "lb build" again.
 
-## Persistence
+<h2>Persistence</h2>
 Normally, when you run a live system the changes you make are gone when you reboot. But you can use a feature called persistence and by using that you can save the changes you've made and use that the next time you run your live system. So, in a way, you then have a system like your normal pc that you can take with you on the go.
 There are a number of things you need to do to make that work though. The official documentation of persistence can be found <a href="http://live.debian.net/manual/stable/html/live-manual.en.html#529">here</a>, but I'll describe the needed steps below.
 
