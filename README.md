@@ -33,7 +33,7 @@ Using /dev/sdb
 Welcome to GNU Parted! Type 'help' to view a list of commands.
 (parted) print                                                            
 Model: Generic Flash Disk (scsi)
-Disk /dev/sdf: 1992MB
+Disk /dev/sdb: 1992MB
 Sector size (logical/physical): 512B/512B
 Partition Table: msdos
 
