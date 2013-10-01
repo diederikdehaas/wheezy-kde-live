@@ -29,4 +29,4 @@ rar unrar
 virtualbox-guest-dkms virtualbox-guest-x11 virtualbox-guest-utils
 
 # Other
-git vim tmux
+git vim tmux pastebinit
