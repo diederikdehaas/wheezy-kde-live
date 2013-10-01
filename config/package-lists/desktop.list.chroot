@@ -3,7 +3,7 @@ desktop-base menu xdg-utils
 xserver-xorg-video-all xserver-xorg-input-all
 
 # Web browser
-iceweasel xul-ext-adblock-plus
+iceweasel 
 #if ARCHIVE_AREAS contrib non-free
 flashplugin-nonfree
 #endif
