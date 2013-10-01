@@ -67,7 +67,7 @@ EOF
 #	rm -f /usr/share/autostart/nepomukserver.desktop
 #	rm -f /usr/share/kde4/services/kwalletd.desktop
 #	rm -f /usr/share/kde4/services/kded/kpackagekitd.desktop
-#	rm -f /usr/share/kde4/services/kded/freespacenotifier.desktop
+	rm -f /usr/share/kde4/services/kded/freespacenotifier.desktop
 #	rm -f /usr/share/kde4/services/plasma-runner-contacts.desktop  # starts akonadi
 #	rm -f /usr/share/kde4/services/kded/notificationhelper.desktop
 #	rm -f /usr/share/kde4/services/plasma-dataengine-calendar.desktop # starts akonadi
