@@ -17,8 +17,8 @@ netbase net-tools wireless-tools iw dnsutils traceroute tshark nmap dnstracer sm
 # Security
 gnupg2
 
-# Anti-virus/malware/etc
-clamav clamav-freshclam chkrootkit rkhunter
+## Anti-virus/malware/etc
+#clamav clamav-freshclam chkrootkit rkhunter
 # Archive utilities
 bzip2 p7zip-full zip unzip 
 #if ARCHIVE_AREAS non-free
