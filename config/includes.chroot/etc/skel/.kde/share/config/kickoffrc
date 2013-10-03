@@ -1,0 +1,9 @@
+[Favorites]
+FavoriteURLs=/usr/share/applications/iceweasel.desktop,/usr/share/applications/kde4/Kontact.desktop,/usr/lib/libreoffice/share/xdg/writer.desktop,/usr/lib/libreoffice/share/xdg/calc.desktop,/usr/share/applications/smplayer.desktop,/usr/share/applications/kde4/dolphin.desktop,/usr/share/applications/kde4/konsole.desktop,/usr/share/applications/kde4/systemsettings.desktop
+
+[KRunner]
+loadAll=false
+
+[KRunner][PlasmaRunnerManager]
+pluginWhiteList=places,shell,services,bookmarks,recentdocuments,locations
+
