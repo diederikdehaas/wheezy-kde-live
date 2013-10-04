@@ -60,8 +60,7 @@ EOF
 	fi
 
 	# Disabling unnecessary KDE services
-#	rm -f /usr/share/autostart/kab2kabc.desktop
-#	rm -f /usr/share/autostart/kaddressbookmigrator.desktop
+	sudo -u "${LIVE_USERNAME}" kwriteconfig --file kres-migratorrc --group Migration --key Enabled --type bool false
 #	rm -f /usr/share/autostart/korgac.desktop
 #	rm -f /usr/share/autostart/printer-applet.desktop
 #	rm -f /usr/share/autostart/nepomukserver.desktop
