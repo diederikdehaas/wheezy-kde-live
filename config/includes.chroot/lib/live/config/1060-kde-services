@@ -62,13 +62,11 @@ EOF
 	# Disabling unnecessary KDE services
 	sudo -u "${LIVE_USERNAME}" kwriteconfig --file kres-migratorrc --group Migration --key Enabled --type bool false
 #	rm -f /usr/share/autostart/korgac.desktop
-#	rm -f /usr/share/autostart/printer-applet.desktop
 #	rm -f /usr/share/autostart/nepomukserver.desktop
 #	rm -f /usr/share/kde4/services/kwalletd.desktop
 #	rm -f /usr/share/kde4/services/kded/kpackagekitd.desktop
 	kwriteconfig --file /usr/share/kde4/services/kded/freespacenotifier.desktop --group "Desktop Entry" --key X-KDE-Kded-autoload --type bool false
 #	rm -f /usr/share/kde4/services/plasma-runner-contacts.desktop  # starts akonadi
-#	rm -f /usr/share/kde4/services/kded/notificationhelper.desktop
 #	rm -f /usr/share/kde4/services/plasma-dataengine-calendar.desktop # starts akonadi
 
 	# should enable kxkb in ~/.kde/share/config/kxkbrc
