@@ -13,7 +13,7 @@ For the impatient on a Debian system you need the "live-build" package installed
 Once you have that, clone my repository and cd into that. Then do:
 <pre># lb build</pre> and wait for it to finish, which can take a while depending on the speed of your system and your internet connection. When it has finished, you'll have a file named "binary.hybrid.iso" which you can burn onto a cd/dvd or put it on an usb stick with the following command:
 <pre>dd if=binary.hybrid.iso of={USBSTICK} bs=1M</pre>
-Where {USBSTICK} is the identifyer of your stick, like /dev/sdb. When you plug in your usb stick and do "dmesg | tail", you should see which identifyer is assigned to your stick.
+Where {USBSTICK} is the identifier of your stick, like /dev/sdb. When you plug in your usb stick and do "dmesg | tail", you should see which identifier is assigned to your stick.
 <p><b>WARNING</b> The above command overrides all the data that was previously present on that disk, so back those up before you issue that command.</p>
 If you've build your image and want to change the configuration, for example add your own preferred packages, do an <pre># lb clean</pre> first, change your configuration and then do a "lb build" again.
 
