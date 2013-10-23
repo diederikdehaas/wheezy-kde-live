@@ -61,7 +61,7 @@ EOF
 
 	# Disabling unnecessary KDE services
 	sudo -u "${LIVE_USERNAME}" kwriteconfig --file kres-migratorrc --group Migration --key Enabled --type bool false
-	sudo -u "${LIVE_USERNAME}" kwriteconfig --file kdekrc --group Module-freespacenotifier --key autoload --type bool false
+	sudo -u "${LIVE_USERNAME}" kwriteconfig --file kdedrc --group Module-freespacenotifier --key autoload --type bool false
 
 	# should enable kxkb in ~/.kde/share/config/kxkbrc
 	# if multiple layouts are specified. gnome does it per default.
