@@ -10,8 +10,11 @@ gtk2-engines-oxygen gtk3-engines-oxygen kde-config-gtk-style
 # Multimedia
 smplayer kmix 
 
+# Communication
+konversation kopete
+
 # Security
 kwalletmanager ksshaskpass kgpg
 
 # Other
-ark kate kcalc plasma-widget-networkmanagement 
+ark kate kcalc plasma-widget-networkmanagement yakuake
