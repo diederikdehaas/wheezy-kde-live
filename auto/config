@@ -8,5 +8,6 @@ lb config noauto \
 	--archive-areas "main contrib non-free" \
 	--apt-source-archives false \
 	--backports true \
+	--memtest memtest86+ \
 	--bootappend-live "boot=live config quiet splash persistence" \
 	"${@}"
