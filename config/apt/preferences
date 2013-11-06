@@ -11,6 +11,6 @@ Pin: release a=wheezy-backports
 Pin-Priority: 1000
 
 # Don't enable bumblebee until version 3.2.1-4 hits backports
-#Package: bumblebee bumblebee-nvidia primus
-#Pin: release a=wheezy-backports
-#Pin-Priority: 1000
+Package: bumblebee bumblebee-nvidia primus
+Pin: release a=wheezy-backports
+Pin-Priority: 1000

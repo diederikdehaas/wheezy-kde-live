@@ -20,5 +20,5 @@ fglrx-modules-dkms fglrx-driver fglrx-control
 glx-diversions glx-alternative-mesa glx-alternative-nvidia glx-alternative-fglrx
 #endif
 
-# Don't enable bumblebee until version 3.2.1-4 hits backports
-#bumblebee bumblebee-nvidia primus
+# Add support for NVidia Optimus graphics cards
+bumblebee bumblebee-nvidia primus
