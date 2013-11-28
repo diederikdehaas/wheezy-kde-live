@@ -1,6 +1,6 @@
 # System
 cpufrequtils bash-completion lvm2 mdadm usbutils pciutils hwinfo lshw mlocate eject
-alsa-base alsa-utils
+alsa-base alsa-utils pm-utils
 
 # Filesystems
 dosfstools ntfs-3g fuse exfat-fuse exfat-utils e2fsprogs sshfs
