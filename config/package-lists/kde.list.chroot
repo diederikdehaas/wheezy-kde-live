@@ -11,7 +11,7 @@ gtk2-engines-oxygen gtk3-engines-oxygen kde-config-gtk-style
 smplayer kmix 
 
 # Communication
-konversation kopete
+konversation kopete bluez-alsa bluedevil
 
 # Security
 kwalletmanager ksshaskpass kgpg
