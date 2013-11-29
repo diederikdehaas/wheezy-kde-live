@@ -10,5 +10,5 @@ lb config noauto \
 	--backports true \
 	--debian-installer netinst \
 	--memtest memtest86+ \
-	--bootappend-live "boot=live config quiet splash persistence" \
+	--bootappend-live "boot=live config quiet splash persistence keyboard-variants=euro" \
 	"${@}"
