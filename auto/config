@@ -11,5 +11,6 @@ lb config noauto \
 	--debian-installer netinst \
 	--memtest memtest86+ \
 	--bootappend-live "boot=live config quiet splash persistence \
-	keyboard-variants=euro" \
+	keyboard-variants=euro \
+	locales=nl_NL.UTF-8,en_US.UTF-8" \
 	"${@}"
