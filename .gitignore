@@ -30,4 +30,4 @@ source*.zsync
 
 .lock
 
-config/includes.chroot/usr/share/kde4/apps/plasma-desktop/
+config/includes.chroot/usr/share/kde4/apps/
