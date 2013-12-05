@@ -30,4 +30,4 @@ source*.zsync
 
 .lock
 
-config/includes.chroot/usr/share/kde4/apps/
+config/includes.chroot/usr/share/kde4/
