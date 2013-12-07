@@ -14,7 +14,7 @@ smplayer kmix
 konversation kopete bluez-alsa bluedevil
 
 # Security
-kwalletmanager ksshaskpass kgpg
+update-notifier-kde kwalletmanager ksshaskpass kgpg
 
 # Other
 ark kate kcalc plasma-widget-networkmanagement yakuake
