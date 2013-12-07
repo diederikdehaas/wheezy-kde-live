@@ -63,6 +63,9 @@ EOF
 	sudo -u "${LIVE_USERNAME}" kwriteconfig --file kres-migratorrc --group Migration --key Enabled --type bool false
 	sudo -u "${LIVE_USERNAME}" kwriteconfig --file kdedrc --group Module-freespacenotifier --key autoload --type bool false
 
+	# Set timezone to Amsterdam
+	sudo -u "${LIVE_USERNAME}" kwriteconfig --file ktimezonedrc --group TimeZones --key LocalZone "Europe/Amsterdam"
+
 	# should enable kxkb in ~/.kde/share/config/kxkbrc
 	# if multiple layouts are specified. gnome does it per default.
 
