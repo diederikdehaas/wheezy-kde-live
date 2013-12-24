@@ -7,7 +7,6 @@ lb config noauto \
 	--linux-flavours 686-pae \
 	--archive-areas "main contrib non-free" \
 	--apt-source-archives false \
-	--backports true \
 	--debian-installer netinst \
 	--memtest memtest86+ \
 	--bootappend-live "boot=live config quiet splash \
