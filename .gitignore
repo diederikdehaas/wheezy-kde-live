@@ -33,3 +33,24 @@ source*.zsync
 .lock
 
 config/includes.chroot/usr/share/kde4/
+
+# Excluded auto generated hooks from /usr/share/live/build/hooks
+config/hooks/0150-remove-mdadm-configuration.hook.chroot
+config/hooks/0420-update-glx-alternative.hook.chroot
+config/hooks/0120-remove-dbus-machine-id.hook.chroot
+config/hooks/0010-disable-kexec-tools.hook.chroot
+config/hooks/0200-remove-udev-persistent-cd-rules.hook.chroot
+config/hooks/0300-remove-udev-persistent-net-rules.hook.chroot
+config/hooks/0100-remove-adjtime-configuration.hook.chroot
+config/hooks/0440-update-nvidia-alternative.hook.chroot
+config/hooks/0140-remove-log-files.hook.chroot
+config/hooks/0130-remove-gnome-icon-cache.hook.chroot
+config/hooks/0400-update-apt-file-cache.hook.chroot
+config/hooks/0170-remove-python-py.hook.chroot
+config/hooks/0110-remove-backup-files.hook.chroot
+config/hooks/0190-remove-temporary-files.hook.chroot
+config/hooks/0160-remove-openssh-server-host-keys.hook.chroot
+config/hooks/0410-update-apt-xapian-index.hook.chroot
+config/hooks/0430-update-mlocate-database.hook.chroot
+config/hooks/0195-remove-ssl-cert-snakeoil.hook.chroot
+config/hooks/0180-remove-systemd-machine-id.hook.chroot
